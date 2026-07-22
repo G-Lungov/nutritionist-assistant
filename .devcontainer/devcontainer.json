@@ -1,0 +1,13 @@
+{
+    "name": "Java MVP CLI Environment",
+    "dockerFile": "Dockerfile",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "vscjava.vscode-java-pack", // Pacote essencial para Java (IntelliSense, Debug)
+                "vscjava.vscode-maven"     // Suporte para gerenciar o Maven
+            ]
+        }
+    },
+    "remoteUser": "vscode"
+}
