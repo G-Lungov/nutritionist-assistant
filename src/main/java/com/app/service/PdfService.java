@@ -1,4 +1,4 @@
-package main.java.com.app.service;
+package com.app.service;
 
 public class PdfService {
 

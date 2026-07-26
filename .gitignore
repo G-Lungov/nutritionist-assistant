@@ -1,0 +1,33 @@
+# --- Java & Maven ---
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.m2/
+.layout
+.factorypath
+
+# --- VS Code & Dev Containers ---
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/
+*.log
+
+# --- OS & Temp Files ---
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*.swp
+
+# --- MVP files generate from tests (Opcional) ---
+# Avoid commiting files from tests
+*.docx
+*.xml
+*.pdf
+!src/test/resources/

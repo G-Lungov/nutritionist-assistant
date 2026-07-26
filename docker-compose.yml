@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  app-java:
+    image: glungov/nutritionist-assistant:1.0.0
+    container_name: nutritionist-assistant
+    build:
+      context: .
+      dockerfile: .devcontainer/Dockerfile
+    # Mantém o terminal interativo aberto para o seu app CLI funcionar
+    stdin_open: true
+    tty: true
+
+    # Mapeia a pasta atual para dentro do container (para ler/salvar os arquivos)
+    volumes:
+      - .:/workspace
+    working_dir: /workspace
