@@ -1,9 +1,9 @@
 {
-    "name": "Nutritionist Assistant",
+    "name": "nutritionist-assistant-docker",
     "dockerComposeFile": [
         "../docker-compose.yml"
     ],
-    "service": "app-java",
+    "service": "nutritionist-assistant-service",
     "workspaceFolder": "/workspace",
     "customizations": {
         "vscode": {
@@ -12,6 +12,5 @@
                 "vscjava.vscode-maven"
             ]
         }
-    },
-    "remoteUser": "vscode"
+    }
 }

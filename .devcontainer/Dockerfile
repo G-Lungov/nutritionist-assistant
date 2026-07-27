@@ -1,3 +1,3 @@
-FROM ://microsoft.com
+FROM eclipse-temurin:21-jdk
 
-USER vscode
+RUN apt-get update && apt-get install -y git curl tar && rm -rf /var/lib/apt/lists/*

@@ -1,8 +1,9 @@
 version: '3.8'
+name: nutritionist-assistant-project
 services:
-  app-java:
+  nutritionist-assistant-service:
     image: glungov/nutritionist-assistant:1.0.0
-    container_name: nutritionist-assistant
+    container_name: nutritionist-assistant-container
     build:
       context: .
       dockerfile: .devcontainer/Dockerfile
