@@ -19,9 +19,9 @@ public class XmlService {
     /**
      * Read XML file to convert in-tags to Map<K,V>
      *
-     * @param xml path
-     * @return map with fomated keys to substitution
-     * @throws exception in case file not found
+     * @param xmlPath path to xml file
+     * @return formatedData map with fomated keys to substitution
+     * @throws Exception in case file not found
      */
 
     public Map<String, String> readXmlData(String xmlPath) throws Exception {
