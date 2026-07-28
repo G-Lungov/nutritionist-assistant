@@ -19,7 +19,7 @@ public class DocumentService {
      * @throws Exception in case reading, writing or substitution failure
      */
 
-    public void generatedPdfFromDocx(String docxPath, String pdfOutputPath, Map<String, String> placeholderMap) throws Exception {
+    public void generatePdfFromDocx(String docxPath, String pdfOutputPath, Map<String, String> placeholderMap) throws Exception {
         File docxFile = new File(docxPath);
 
         if (!docxFile.exists()) {
