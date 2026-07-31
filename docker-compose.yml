@@ -7,11 +7,11 @@ services:
     build:
       context: .
       dockerfile: .devcontainer/Dockerfile
-    # Mantém o terminal interativo aberto para o seu app CLI funcionar
+    # Keeps interactive terminal open to CLI works
     stdin_open: true
     tty: true
 
-    # Mapeia a pasta atual para dentro do container (para ler/salvar os arquivos)
+    # Maps the current directory into the container
     volumes:
       - .:/workspace
     working_dir: /workspace
