@@ -25,9 +25,9 @@ Thumbs.db
 *.bak
 *.swp
 
-# --- MVP files generate from tests (Opcional) ---
+# --- MVP files generate from tests (Optional) ---
 # Avoid commiting files from tests
 *.docx
 *.xml
 *.pdf
-!src/test/resources/
+!src/main/java/com/app/resources/templates/.gitkeep
