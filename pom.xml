@@ -17,6 +17,18 @@
     </properties>
 
     <dependencies>
+        <!-- Forces the logging framework to be up-to-date and matching -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>2.20.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>2.20.0</version>
+        </dependency>
+
         <!-- Apache POI: Reading and manipulation of Office Open XML (.docx) -->
         <dependency>
             <groupId>org.apache.poi</groupId>

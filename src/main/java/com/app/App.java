@@ -27,7 +27,7 @@ public class App {
                 System.out.println("\n-> Loading ...");
 
                 Map<String, String> placeholderMap = xmlService.readXmlData(xmlPath);
-                System.out.println("\n-> Reading XMl and preparing for substitutions");
+                System.out.println("\n-> Reading XML and preparing for substitutions");
                 documentService.generatePdfFromDocx(docxPath, pdfOutputPath, placeholderMap);
                 System.out.println("\n-> Injecting data from XMl to DOC and then converting into PDF");
                 System.out.println("\n-> Success! PDF generated");
@@ -42,7 +42,7 @@ public class App {
             }
             System.out.println("\n--------------------------------------------------------------------------------");
         }
-        System.out.println("\n Sessions completed. Retunrning go CMD.");
+        System.out.println("\n Session(s) completed. Retunrning to CMD.");
         scanner.close();
     }
 }
