@@ -29,20 +29,20 @@ public class App {
                 Map<String, String> placeholderMap = xmlService.readXmlData(xmlPath);
                 System.out.println("\n-> Reading XML and preparing for substitutions");
                 documentService.generatePdfFromDocx(docxPath, pdfOutputPath, placeholderMap);
-                System.out.println("\n-> Injecting data from XMl to DOC and then converting into PDF");
+                System.out.println("\n-> Injecting data from XML to DOC and then converting into PDF");
                 System.out.println("\n-> Success! PDF generated");
             } catch (Exception e) {
                 System.out.println("\n-> Error during process " + e.getMessage());
             }
 
-            System.out.println("\n-> Do you wigh to perform another process? (Y/N): ");
+            System.out.println("\n-> Do you wish to perform another process? (Y/N): ");
             String response = scanner.nextLine().trim().toUpperCase();
             if (!response.equals("Y")) {
                 running = false;
             }
             System.out.println("\n--------------------------------------------------------------------------------");
         }
-        System.out.println("\n Session(s) completed. Retunrning to CMD.");
+        System.out.println("\n Session(s) completed. Returning to CMD.");
         scanner.close();
     }
 }
