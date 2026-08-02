@@ -53,7 +53,7 @@ This builds and drops the compiled executable artifact directly inside the ./tar
       <CALORIES_GOAL>2400 kcal</CALORIES_GOAL>
     </data>
 ```
-    
+
 2. Inside Word file "example.docx": Write your regular layout text inside MS Word or any editor. Place template markers matching your XML tags wrapped within ${...} blocks exactly like this:
 
 ```xml
@@ -76,3 +76,9 @@ D:/User/Documents/xml_data.xml (enter template path, including file name and ext
 D:/User/Documents/pdf_example.pdf (enter final file path and name it as you want)
 ```
 Your fresh "example.pdf" will be generated on disk instantly, viewable right inside your local machine's folder.
+
+
+## Credits
+This project was designed and developed by:
+
+* **Gabriel Lungov** - *Lead Developer* - [GitHub Profile](https://github.com/G-Lungov)

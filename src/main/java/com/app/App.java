@@ -1,3 +1,8 @@
+/**
+ * Developed by: Gabriel Lungov (G-Lungov)
+ * Date: August/02/2026
+ */
+
 package com.app;
 
 import com.app.service.*;
