@@ -14,7 +14,7 @@ The project follows a streamlined N-Tier (Layered Architecture) variant adapted 
 * Language: Java 21 (Eclipse Temurin JDK distribution).
 * Build Automation & Dependency Manager: Apache Maven 3.9+.
 * Containerization & Sandbox: Docker & Docker Compose.
-* Integrated Development Environment: VS Code with the Dev Containers extension ecosystem. [4] 
+* Integrated Development Environment: VS Code with the Dev Containers extension ecosystem.
 ### Frameworks & Libraries (POM Artifacts)
 * [Apache POI (v5.2.5)](https://poi.apache.org/) – Used to deep-scan, manipulate, and rebuild Open Office XML format structures (.docx) programmatically, processing text paragraphs and structural tables.
 * [XDocReport PDF Converter (v2.0.4)](https://github.com/opensagres/xdocreport) – Translates the styling metadata of the dynamically altered Word document directly into an independent PDF byte stream using a headless OpenPDF backend.
